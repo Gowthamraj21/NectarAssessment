@@ -1,0 +1,76 @@
+{
+  "total_assets": 56,
+  "total_relationships": 40,
+  "isolated_assets": [
+    "AST_0053"
+  ],
+  "missing_relationships": [
+    "AST_0001",
+    "AST_0002",
+    "AST_0006",
+    "AST_0009",
+    "AST_0010",
+    "AST_0014",
+    "AST_0017",
+    "AST_0018",
+    "AST_0022",
+    "AST_0025",
+    "AST_0026",
+    "AST_0030",
+    "AST_0033",
+    "AST_0034",
+    "AST_0038",
+    "AST_0041",
+    "AST_0042",
+    "AST_0046",
+    "AST_0049",
+    "AST_0050",
+    "AST_0053",
+    "AST_0054"
+  ],
+  "duplicate_connections": [
+    {
+      "source_asset_id": "AST_0001",
+      "target_asset_id": "AST_0004",
+      "connection_type": "Supplies"
+    },
+    {
+      "source_asset_id": "AST_0001",
+      "target_asset_id": "AST_0004",
+      "connection_type": "Supplies"
+    }
+  ],
+  "orphan_assets": [
+    "AST_0053"
+  ],
+  "invalid_parent_child_mappings": [
+    {
+      "asset_id": "AST_0003",
+      "parent_asset_id": "AST_9999"
+    }
+  ],
+  "chiller_failure": {
+    "failed_asset": "AST_0001",
+    "impacted_asset_count": 3,
+    "impacted_assets": [
+      "AST_0004",
+      "AST_0005",
+      "AST_0008"
+    ],
+    "impacted_asset_types": {
+      "AHU": 1,
+      "Pump": 1,
+      "EnvSensor": 1
+    },
+    "operational_impact": "Localized operational impact to dependent assets.",
+    "recommended_mitigation": "Isolate the failed asset, inspect downstream equipment, and switch to available backup systems."
+  },
+  "pump_failure": {
+    "failed_asset": "AST_0005",
+    "impacted_asset_count": 0,
+    "impacted_assets": [],
+    "impacted_asset_types": {},
+    "operational_impact": "Limited direct downstream impact.",
+    "recommended_mitigation": "Monitor the failed asset and perform maintenance or replacement."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "assets_connected_to(AST_0001)": [
+    "AST_0004",
+    "AST_0005"
+  ],
+  "downstream_impacted_by(AST_0004)_failure": [
+    "AST_0008"
+  ],
+  "assets_under_site(SITE_A)": [
+    "AST_0001",
+    "AST_0002",
+    "AST_0003",
+    "AST_0004",
+    "AST_0005",
+    "AST_0006",
+    "AST_0007",
+    "AST_0008",
+    "AST_0009",
+    "AST_0010",
+    "AST_0011",
+    "AST_0012",
+    "AST_0013",
+    "AST_0014",
+    "AST_0015",
+    "AST_0016",
+    "AST_0017",
+    "AST_0018",
+    "AST_0019",
+    "AST_0020",
+    "AST_0021",
+    "AST_0022",
+    "AST_0023",
+    "AST_0024"
+  ],
+  "isolated_assets": [
+    "AST_0053"
+  ]
+}

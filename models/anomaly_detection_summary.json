@@ -1,0 +1,13 @@
+{
+    "total_observations": 60405,
+    "isolation_forest_anomalies": 607,
+    "statistical_anomalies": 1210,
+    "drift_anomalies": 588,
+    "total_anomalies": 2172,
+    "anomaly_rate_percent": 3.6,
+    "severity": {
+        "critical": 10,
+        "high": 213,
+        "warning": 1949
+    }
+}

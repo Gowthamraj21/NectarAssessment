@@ -1,0 +1,24 @@
+{
+  "results": {
+    "RandomForest": {
+      "precision": 0.7868852459016393,
+      "recall": 0.6018808777429467,
+      "f1": 0.6820603907637656,
+      "roc_auc": 0.9214100356168312
+    },
+    "XGBoost": {
+      "precision": 0.7204968944099379,
+      "recall": 0.7272727272727273,
+      "f1": 0.7238689547581904,
+      "roc_auc": 0.9507631837929746
+    }
+  },
+  "selected_model": "XGBoost",
+  "decision_threshold": 0.6499999999999999,
+  "split": {
+    "train_end": "2026-07-15 11:03:00",
+    "test_start": "2026-07-16 11:03:00",
+    "embargo_hours": 24
+  },
+  "label_definition": "next observed fault timestamp within 24 clock hours; current fault rows excluded"
+}

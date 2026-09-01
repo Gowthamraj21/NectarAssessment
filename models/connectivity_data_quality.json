@@ -1,0 +1,32 @@
+{
+  "duplicate_connections": [
+    {
+      "source_asset_id": "AST_0001",
+      "target_asset_id": "AST_0004",
+      "connection_type": "Supplies",
+      "relationship_strength": 0.52
+    }
+  ],
+  "invalid_parent_references": [
+    {
+      "asset_id": "AST_0003",
+      "asset_name": "AHU-0003",
+      "parent_asset_id": "AST_9999"
+    }
+  ],
+  "invalid_connectivity_edges": [],
+  "orphan_assets": [
+    {
+      "asset_id": "AST_0053",
+      "asset_name": "Pump-0053",
+      "asset_type": "Pump"
+    }
+  ],
+  "missing_relationships": [
+    {
+      "asset_id": "AST_0053",
+      "asset_name": "Pump-0053",
+      "asset_type": "Pump"
+    }
+  ]
+}

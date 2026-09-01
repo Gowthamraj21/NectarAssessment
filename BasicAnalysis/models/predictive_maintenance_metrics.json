@@ -1,0 +1,24 @@
+{
+  "results": {
+    "RandomForest": {
+      "precision": 0.5202020202020202,
+      "recall": 0.64576802507837,
+      "f1": 0.5762237762237762,
+      "roc_auc": 0.9333361439660155
+    },
+    "XGBoost": {
+      "precision": 0.637883008356546,
+      "recall": 0.7178683385579937,
+      "f1": 0.6755162241887905,
+      "roc_auc": 0.9499797934326097
+    }
+  },
+  "selected_model": "XGBoost",
+  "threshold": 0.5,
+  "smote": true,
+  "train_rows_before_smote": 40875,
+  "train_rows_after_smote": 80186,
+  "test_rows": 18090,
+  "label_definition": "Failure observed within next 24 clock hours",
+  "embargo_hours": 24
+}

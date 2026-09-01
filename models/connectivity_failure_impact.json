@@ -1,0 +1,22 @@
+{
+  "chiller_failure": {
+    "failed_asset": "AST_0001",
+    "n_downstream_assets_impacted": 3,
+    "downstream_assets": [
+      "AST_0004",
+      "AST_0005",
+      "AST_0008"
+    ],
+    "downstream_asset_types": {
+      "AHU": 1,
+      "Pump": 1,
+      "EnvSensor": 1
+    }
+  },
+  "pump_failure": {
+    "failed_asset": "AST_0005",
+    "n_downstream_assets_impacted": 0,
+    "downstream_assets": [],
+    "downstream_asset_types": {}
+  }
+}

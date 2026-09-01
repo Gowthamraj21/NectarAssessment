@@ -1,0 +1,18 @@
+{
+    "model": "LSTM",
+    "evaluation": "Direct multi-horizon 1-24h forecasts from a single forecast origin",
+    "history_hours": 168,
+    "forecast_horizon_hours": 24,
+    "test_origin_period_days": 7,
+    "MAE": 9.030250549316406,
+    "RMSE": 17.05363798734791,
+    "MAPE_pct": 7.508941650390625,
+    "naive_baseline_MAE": 43.92877960205078,
+    "naive_baseline_RMSE": 85.67118964024604,
+    "naive_baseline_MAPE_pct": 30.355411529541016,
+    "MAE_improvement_pct": 79.44342949856309,
+    "test_origin_start": "2026-07-23 00:00:00",
+    "max_timestamp": "2026-07-29 23:00:00",
+    "training_samples": 5215,
+    "test_samples": 1008
+}

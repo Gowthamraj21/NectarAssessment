@@ -1,0 +1,10 @@
+{
+  "evaluation": "direct multi-horizon 1-24h forecasts from a single origin; test origins are final 7 days",
+  "MAE": 11.201125313952748,
+  "RMSE": 21.067711321399504,
+  "MAPE_pct": 9.049546356566456,
+  "naive_baseline_MAE": 41.67627362800434,
+  "naive_baseline_RMSE": 82.87845579760456,
+  "MAE_improvement_pct": 73.12349608332987,
+  "test_origin_start": "2026-07-23 00:00:00"
+}
